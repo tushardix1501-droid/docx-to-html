@@ -1,5 +1,5 @@
 const mammoth = require('mammoth');
-const pdfParse = require('pdf-parse');
+const pdfParse = require('pdf-parse/lib/pdf-parse.js');
 
 module.exports = async function handler(req, res) {
   if (req.method !== 'POST') {
